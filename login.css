@@ -22,7 +22,8 @@ body{
 }
 form{
     position: relative;
-    width: 340px;
+/*     width: 340px; */
+    width: 275px;
     height: 70vh;
     box-shadow: 0 0 4px var(--white);
     border-radius: 10px;
