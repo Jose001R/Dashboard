@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --background-body: #001122;
+    --orange: #ff8400;
+    --secundary-color: #00ffb3;
+    --white: #fff;
+    --black: #000;
+}
+body{
+    background-color: var(--background-body);
+    font-family: 'Courier New', Courier, monospace;
+}
+.titulo{
+    color: var(--white);
+    text-align: center;
+    font-size: 30px;
+    color: var(--orange);
+}
+form{
+    position: relative;
+    width: 340px;
+    height: 70vh;
+    box-shadow: 0 0 4px var(--white);
+    border-radius: 10px;
+    margin: 69px auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    margin: 16px auto 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+form input{
+    width: 90%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.132);
+    margin: 10px auto;
+    color: var(--white);
+    padding-left: 15px;
+    border-radius: 20px;
+}
+form input:focus{
+    border-bottom: 2px solid var(--orange);
+    background-color: transparent;
+    color: var(--orange);
+}
+form input[type='submit']{
+    position: relative;
+    bottom: -30px;
+    padding: 0;
+    font-size: 16px;
+    color: var(--white);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+form input[type='submit']:hover{
+    color: var(--white);
+    background-color: var(--orange);
+}
+.enlaces{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    text-align: end;
+}
+.enlaces a{
+    padding-right: 40px;
+    text-decoration: none;
+    color: var(--white);
+}
+.enlaces a:hover{
+    color: var(--orange);
+    text-decoration: 3px underline;
+}
+
+#bad{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    top: 30px;
+    text-align: center;
+    color: var(--orange);
+    background-color: transparent;
+}
