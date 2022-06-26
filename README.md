@@ -1,2 +1,2 @@
 # Dashboard
-https://jose001r.github.io/Dashboard/
+https://jose001r.github.io/dashboard/
