@@ -23,7 +23,7 @@ body{
 form{
     position: relative;
     width: 340px;
-    height: 72vh;
+    height: auto;
     box-shadow: 0 0 4px var(--white);
     border-radius: 10px;
     margin: 69px auto;
@@ -103,5 +103,4 @@ form input[type='submit']:hover{
 @media (max-width:290px) {
     form{
         width: 290px;
-        height: 73vh;
     }
